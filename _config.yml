@@ -28,6 +28,8 @@ compress_html:
 
 # projects in header index
 projects:
+  - name: armend.cc
+    url: https://github.com/bigfatman17/armend.cc
   - name: maze3d
     url: https://github.com/bigfatman17/maze3d
 # exclude my node related stuff
