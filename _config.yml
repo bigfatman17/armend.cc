@@ -31,4 +31,4 @@ projects:
   - name: maze3d
     url: https://github.com/bigfatman17/maze3d
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules', 'tags']
+exclude: ['package.json', 'src', 'node_modules', 'tags', 'README.md']
