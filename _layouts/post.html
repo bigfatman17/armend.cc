@@ -1,10 +1,12 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
     {% include head.html %}
     <body>
         {% include svg-icons.html %}
-        {% include header-post.html %}
-        {% include tree-posts.html %}
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
             {% if page.date %}
                 <div class="time">
@@ -18,7 +20,7 @@
             </article>
 
             {% include share.html %}
-            {% include comments.html %}
+            <!-- {% include comments.html %} -->
             {% include footer.html %}
             {% include scripts.html %}
         </section>
